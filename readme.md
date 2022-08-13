@@ -2,6 +2,7 @@ Yêu cầu:
 - python 3
 - beautifulsoup4
 - pandas
+
 Hướng dẫn:
 1. Chạy file main.py
 2. Nhập từ khóa tìm kiếm để thu thập dữ liệu
