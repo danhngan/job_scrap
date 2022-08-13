@@ -1,0 +1,25 @@
+Mục tiêu
+Thu thập dữ liệu về tuyển dụng theo keyword trên trang web www.vietnamwork.com
+
+Quy trình thực hiện
+1. Tìm hiểu về trang web
+2. Tìm hiểu các phương thức thu thập
+3. Thu thập dữ liệu
+4. Xử lý dữ liệu
+5. Xuất file xlsx
+
+Tìm hiểu về trang web
+Sau khi nhập từ khóa tìm kiếm, trang sẽ gửi một request chứa các thông tin về từ khóa, các trường dữ liệu cần thiết. Lúc này ta sẽ nhận được danh sách các thông tin cần thiết như: Job title, company name, salary, level,...
+Một số thông tin hữu ích nhưng không được trả về như: cấc kỹ năng, ngôn ngữ hồ sơ. Tuy nhiên các thông tin này có thể được tìm thấy tại nội dung của từng công việc, và được liệt kê trong một khung tổng hợp có cấu trúc cố định.
+
+Các phương thức thu thập
+Gửi post request để lấy các thông tin: Job title, company name, salary, level,...
+Sử dụng cấu trúc của html để tìm ra các thông tin kỹ năng, ngôn ngữ hồ sơ để lưu trữ lại
+
+Xử lý
+Chuyển đổi một số thông tin để tiện cho việc tra cứu hơn như: expiredOn, address, benefits
+Chỉ dữ lại các thông tin cần thiết
+
+Lưu vào file excel
+
+
